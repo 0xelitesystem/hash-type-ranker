@@ -1,8 +1,8 @@
-# Hash Identifier
+# Hash Type Ranker
 
 Paste a hash string and get a ranked list of the algorithms that could have produced it, based on length and format. It recognizes MD5, SHA-1, SHA-256, SHA-512, CRC32, bcrypt, argon2, NTLM, MySQL, base64-looking values, and several Unix crypt formats, and it is honest when the answer is ambiguous. Single self-contained file, no external dependencies, works offline.
 
-**Live demo:** https://0xelitesystem.github.io/hash-identifier/
+**Live demo:** https://0xelitesystem.github.io/hash-type-ranker/
 
 Not affiliated with the hash-identifier tool packaged in Kali Linux.
 
@@ -41,8 +41,8 @@ Everything runs in your browser. The hash you paste is never sent anywhere. Ther
 ## Run locally
 
 ```bash
-git clone https://github.com/0xelitesystem/hash-identifier
-cd hash-identifier
+git clone https://github.com/0xelitesystem/hash-type-ranker
+cd hash-type-ranker
 ```
 
 Then open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000.
